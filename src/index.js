@@ -3,10 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 function Square (props) {
-    return
         return (
-            <button className="square" onClick={()=>this.props.onClick()}>
-            {this.props.value}
+            <button className="square" onClick={props.onClick}>
+            {props.value}
             </button>
     );
 }
